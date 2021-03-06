@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484499940078",
+    "firebase_url": "https://fitnetic-71f82.firebaseio.com",
+    "project_id": "fitnetic-71f82",
+    "storage_bucket": "fitnetic-71f82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484499940078:android:73fb93f56cf54335c509ff",
+        "android_client_info": {
+          "package_name": "com.example.fitnetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484499940078-p2j2cjaudedln0rms9697b7oa5pa5ima.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnetic",
+            "certificate_hash": "cb0d017e31f540e7767b266b7182a16da4a517c8"
+          }
+        },
+        {
+          "client_id": "484499940078-47m21g16lclcen4smlhp89ih7gbi2qsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV78koj5baeKgIEKrkcf30ymf_Ms1E34k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484499940078-47m21g16lclcen4smlhp89ih7gbi2qsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

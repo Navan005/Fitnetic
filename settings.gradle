@@ -1,0 +1,2 @@
+rootProject.name='Fitnetic'
+include ':app'

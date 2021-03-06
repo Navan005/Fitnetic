@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductActivity">
+
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Exercises by Categories"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp">
+
+        <ImageView
+            android:id="@+id/chest"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/chest1"
+            android:clickable="true"
+            android:focusable="true"
+             />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/back1"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+        <ImageView
+            android:id="@+id/biceps"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/biceps1"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/triceps"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/triceps1"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+        <ImageView
+            android:id="@+id/legs"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/legs1"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+        <ImageView
+            android:id="@+id/buttocks"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/buttocks1"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/abs"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/abs1"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:focusable="true"
+             />
+
+        <ImageView
+            android:id="@+id/forearms"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/forarms"
+            android:clickable="true"
+            android:focusable="true"
+           />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
